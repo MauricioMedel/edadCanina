@@ -1,0 +1,25 @@
+<div>
+
+  <img alt="Silhouette of mountains" 
+  src="../../assets/icon/perro_en_comuputadora.jpeg" />
+<ion-text>
+
+  <h1>Cual es la edad de su mascota</h1>
+<!-- IonInput FormsModule-->
+</ion-text>
+<ion-input type="text" placeholder="ingrese la edad en años"
+[(ngModel)]="edad">
+
+</ion-input>
+
+<ion-button (click)="calcular()" expand="block" shape="round">
+Calcular
+</ion-button>
+
+<ion-text>
+
+  <h1>{{resultado}}</h1>
+
+</ion-text>
+
+</div>
